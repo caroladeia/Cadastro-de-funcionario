@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+#content {
+    position: relative;
+    z-index: 1;
+    color: white; /* Mudar a cor do texto conforme necessário */
+}
+
+
+#new {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    padding: 17px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: #89a09a;
+    margin-left: -5%;
+    position: absolute;
+    bottom: 27%; /* Você pode ajustar essa distância conforme necessário */
+  }
+
+  #new:hover{
+    background-color: #4e6962;
+    transition: 1s;
+  }
